@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/coin-bounce/static/css/main.2ae8c187.css",
+    "main.js": "/coin-bounce/static/js/main.21cc6f3c.js",
+    "static/js/787.cda612ba.chunk.js": "/coin-bounce/static/js/787.cda612ba.chunk.js",
+    "index.html": "/coin-bounce/index.html",
+    "main.2ae8c187.css.map": "/coin-bounce/static/css/main.2ae8c187.css.map",
+    "main.21cc6f3c.js.map": "/coin-bounce/static/js/main.21cc6f3c.js.map",
+    "787.cda612ba.chunk.js.map": "/coin-bounce/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ae8c187.css",
+    "static/js/main.21cc6f3c.js"
+  ]
+}
