@@ -1,0 +1,16 @@
+.errorWrapper{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column  ;
+    min-height: 60vh;
+}
+
+.errorbody{
+    margin-top:20px;
+}
+
+.backlink{
+    text-decoration: none;
+    color: orange;
+}

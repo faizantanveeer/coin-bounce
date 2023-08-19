@@ -1,0 +1,54 @@
+.loginWrapper{
+    margin: 0 auto;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.loginHeader{
+    font-size: 48px;
+    font-weight: bold;
+    width: inherit;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.logInBtn{
+    background-color: #3861fb;
+    border: none;
+    outline: none;
+    color: white;
+    width: 15%;
+    padding: 15px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.logInBtn:hover{
+    background-color: #0037ff;
+}
+.logInBtn:disabled{
+    cursor: not-allowed;
+}
+
+.createAcc{
+    margin-top: 20px;
+    color: #16c784;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 50px;
+    outline: none;
+    border: none;
+}
+
+.errorMessage{
+    color: #ea3943;
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+}

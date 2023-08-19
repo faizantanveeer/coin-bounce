@@ -1,0 +1,120 @@
+.detailWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50;
+    margin: 10px 50px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px 0;
+    border: 1px soild yellow;
+}
+
+.meta{
+    display: flex;
+    gap: 25px;
+    justify-content: flex-start;
+}
+
+.content{
+    margin: 20px auto;
+}
+
+.photo{
+    margin:10px auto;
+}
+
+.photo img{
+    border-radius: 10px;
+}
+
+.control{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.right{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.editButton{
+    margin-left: 10px;
+    background-color: #16c784;
+    color: white;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    height: fit-content;
+}
+
+.editButton:hover{
+    background-color: #17ae74;
+}
+
+.deleteButton{
+    margin-left: 10px;
+    background-color: #ea3943;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    height: fit-content;
+}
+
+.deleteButton:hover{
+    background-color: #e01822;
+}
+
+.postCommentBtn{
+    background-color: #2851fb;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 40px;
+    height: fit-content;
+    border-radius: 10px;
+}
+
+.postCommentBtn:hover{
+    background-color: #1f4ffd;
+}
+
+.input{
+    border: none;
+    padding: 10px 20px;
+    color: #bebcc0;
+    font-size: 18px;
+    border-radius: 10px;
+    outline: none;
+    margin: 15px 10px;
+    border: 1px solid white;
+    flex: 1;
+}
+
+.postComment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

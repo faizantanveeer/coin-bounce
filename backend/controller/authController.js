@@ -12,7 +12,7 @@ const RefreshToken = require("../models/token");
 const UserDTO = require('../dto/user');
 
 const passwordPattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,25}$/;
-const authController = {
+const authController = { 
 
     async register(req, res, next) {
         //1. validate user data

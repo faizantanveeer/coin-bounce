@@ -1,0 +1,33 @@
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/profile.css');
+
+.comment{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    margin: 10px;
+    border-bottom: 2px solid #5b5b5b;
+}
+
+.author{
+    color: #c4c5c5;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.header div{
+    margin: 2px 0;
+}
+
+.date{
+    color: #c4c5c5;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.commenText{
+    font-size: 18px;
+    padding: 5px;
+}
+

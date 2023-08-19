@@ -1,0 +1,86 @@
+.navbar{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    padding: 20px 0;
+    margin: 20px auto;
+    width: 80%;
+}
+
+
+.logo{
+    font-size: 22px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.activeStyle{
+    color: orange;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: .3s;
+}
+
+
+.inactiveStyle{
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+.inactiveStyle:hover{
+    color: orange;
+    transition: .2s ease;
+}
+
+
+.logInBtn {
+    border: none;
+    background: rgb(255, 186, 58);
+    outline: none;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: .09s .04s linear;
+}
+.logInBtn:hover{
+    background: orange;
+}
+.signUpBtn{
+    background-color:  #3861fb;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.signUpBtn:hover{
+    background-color: #0037ff;
+}
+
+.signOutBtn{
+    background-color:  #ea3943;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+
+}
+.signOutBtn:hover{
+    background-color: #e01822;
+}
+
+.separator{
+    height: 1px;
+    background: linear-gradient(to right, transparent, #9ba3c2, transparent);
+    margin-top: 5px;
+}

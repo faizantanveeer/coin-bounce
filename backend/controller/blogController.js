@@ -29,9 +29,12 @@ const blogController = {
         const {title, author, content, photo} = req.body;
  
         //2. handle photo storage and naming
+   
 
         //read as MongoDB Buffer
-        const buffer = Buffer.from(photo.replace(/^data: image\/(png|jpg|jpeg); base64,/ , ''), 'base64');
+        const buffer = Buffer.from(photo.replace(/^data:image\/(png|jpg|jpeg);base64,/, ""),
+        "base64"
+        );
 
         //allot a random name
         const imagePath = `${Date.now()}-${author}.png`;
@@ -141,7 +144,9 @@ const blogController = {
 
             // save new photo
 
-            const buffer = Buffer.from(photo.replace(/^data: image\/(png|jpg|jpeg); base64,/ , ''), 'base64');
+            const buffer = Buffer.from(photo.replace(/^data:image\/(png|jpg|jpeg);base64,/, ""),
+            "base64"
+            );
 
             //allot a random name
             const imagePath = `${Date.now()}-${author}.png`;
