@@ -25,12 +25,12 @@ function App() {
     <Loader text="..." />
   ) : (
     <div className={styles.container}>
-      <BrowserRouter>
+      <BrowserRouter basename = "/coin-bounce">
         <div className={styles.layout}>
           <Navbar />
           <Routes>
             <Route
-              path="/"
+              path="/coin-bounce"
               exact
               element={
                 <div className={styles.main}>
