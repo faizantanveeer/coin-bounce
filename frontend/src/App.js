@@ -30,7 +30,7 @@ function App() {
           <Navbar />
           <Routes>
             <Route
-              path="/coin-bounce"
+              path="home"
               exact
               element={
                 <div className={styles.main}>
